@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- latest -->
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <title>HOME - NEOCOSMA</title>
+</head>
+<script>
+    function changeImageOnHover(element) {
+        element.src = './media/images/angelred.png';
+    }
+    function restoreOriginalImage(element) {
+        element.src = './media/images/angel.png';
+    }
+    function changeImageOnHover2(element) {
+        element.src = './media/images/greekbust2.png';
+    }
+    function restoreOriginalImage2(element) {
+        element.src = './media/images/greekbust.png';
+    }
+</script>
+<body style="background-image: url('./media/images/gigagrip.png');">
+    <div>
+        <a href="index.html">
+        <img id = "right" src="../media/images/windowslogo.png" style="width: 50px;
+        height: 75px; object-fit: contain;" onmouseover="this.src='../media/images/OIG.jpg';" onmouseout="this.src='../media/images/windowslogo.png';" >
+        </a>
+        <p style = "color: white;">GO BACK</p>
+    </div>
+    <div class="image-row">
+        <p style = "color: white;">ART</p>
+        <a href="./HomePage/ART.html">
+        <img src="/media/images/paint_icon.png"
+            style="height: 150px; width: 250px;" onmouseover="this.src='../media/images/OIG.jpg';" onmouseout="this.src='../media/images/paint_icon.png';" >
+        </a>
+        <p style = "color: white;">MUSIC</p>
+        <a href="./HomePage/MUSIC.html">
+        <img src="/media/images/icon.png"
+            style="height: 100px; width: 150px;" onmouseover="this.src='../media/images/OIG.jpg';" onmouseout="this.src='../media/images/icon.png';" >
+        </a> 
+    </div>
+    <div class="image-row">
+        <p style = "color: white;">LEARNING</p>
+        <a href="./HomePage/LEARNING.html">
+        <img src="/media/images/windows-95-icons-png-14.png"
+            style="height: 200px; width: 300px;" onmouseover="this.src='../media/images/OIG.jpg';" onmouseout="this.src='../media/images/windows-95-icons-png-14.png';" >
+        </a>
+        <p style = "color: white;">DOWNLOADS</p>
+        <a href="./HomePage/DOWNLOADS.html">
+        <img src="/media/images/download_icon.png"
+            style="height: 150px; width: 200px;" onmouseover="this.src='../media/images/OIG.jpg';" onmouseout="this.src='../media/images/download_icon.png';" > 
+        </a>
+    </div>
+    <div class="image-row">
+        <p style = "color: white;">LOG|PROJECTS</p>
+        <a href="./HomePage/LOG_PROJECTS.html">
+        <img src="/media/images/computer_icon.png"
+            style="height: 150px; width: 250px;" onmouseover="this.src='../media/images/OIG.jpg';" onmouseout="this.src='../media/images/computer_icon.png';" > 
+        </a>
+        <p style = "color: white;">SERVICES</p>
+        <a href="./HomePage/SERVICES.html">
+        <img src="/media/images/phone_icon.png"
+            style="height: 150px; width: 200px;" onmouseover="this.src='../media/images/OIG.jpg';" onmouseout="this.src='../media/images/phone_icon.png';" >
+        </a>
+    </div>
+ 
+</body>
+</html>
